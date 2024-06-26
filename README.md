@@ -2,7 +2,7 @@
 ## Get your own WissKI Instance 
 https://wisski.cloud
 ## Use pre-existing 
-https://<instance>.wisski.cloud
+https://\<instance\>.wisski.cloud
 
 ddd24-1
 ddd24-2
