@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <pathbuilderinterface>
   <path>
     <id>g__console</id>
@@ -604,5 +604,61 @@
     <uuid>f0efa82e-8802-45a5-a7f1-ee35523d5b04</uuid>
     <is_group>0</is_group>
     <name>Image</name>
+  </path>
+  <path>
+    <id>f__con__games</id>
+    <weight>5</weight>
+    <enabled>0</enabled>
+    <group_id>g__console</group_id>
+    <bundle/>
+    <field>0</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>entity_reference_autocomplete</displaywidget>
+    <formatterwidget>entity_reference_label</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>http://barcamp.wisski.cloud/ontology/1.0/Console_Type</x>
+      <y>http://erlangen-crm.org/240307/P16i_was_used_for</y>
+      <x>http://erlangen-crm.org/240307/E7_Activity</x>
+      <y>http://erlangen-crm.org/240307/P16_used_specific_object</y>
+      <x>http://erlangen-crm.org/240307/E22_Human-Made_Object</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>117454aa-aac7-409c-b60f-efb0ac5cbc1d</uuid>
+    <is_group>0</is_group>
+    <name>Games</name>
+  </path>
+  <path>
+    <id>f__actor__produced_consoles</id>
+    <weight>2</weight>
+    <enabled>0</enabled>
+    <group_id>g__manufacturer</group_id>
+    <bundle>ba69b3a9ccb111c460519bf6c2e51a3f</bundle>
+    <field>f451bdb3be8ef94f7883d9bbaee06201</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>wisski_link_formatter</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>http://erlangen-crm.org/240307/E39_Actor</x>
+      <y>http://erlangen-crm.org/240307/P14i_performed</y>
+      <x>http://erlangen-crm.org/240307/E12_Production</x>
+      <y>http://erlangen-crm.org/240307/P186_produced_thing_of_product_type</y>
+      <x>http://barcamp.wisski.cloud/ontology/1.0/Console_Type</x>
+      <y>http://erlangen-crm.org/240307/P102_has_title</y>
+      <x>http://erlangen-crm.org/240307/E35_Title</x>
+    </path_array>
+    <datatype_property>http://erlangen-crm.org/240307/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>a1c1e79b-0678-4b0b-b5e3-a97f816d0c5e</uuid>
+    <is_group>0</is_group>
+    <name>Produced Consoles</name>
   </path>
 </pathbuilderinterface>

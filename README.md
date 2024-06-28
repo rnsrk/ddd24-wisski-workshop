@@ -9,10 +9,13 @@ ddd24-2
 …
 ddd24-10
 
+(Passwords@presentation)
+
 ## Ontology
 [Console collection ontology](http://barcamp.wisski.cloud/ontology/1.0/)
 ## Pathbuilder
 [Console collection pathbuilder](https://barcamp.wisski.cloud/sites/default/files/wisski_pathbuilder/export/console_collection.xml)
+[Games pathbuilder](https://barcamp.wisski.cloud/sites/default/files/wisski_pathbuilder/export/games.xml)
 
 ## More Info
 * [WissKI on Drupal](https://www.drupal.org/project/wisski)
